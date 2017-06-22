@@ -57,7 +57,7 @@ forward void Retakes_OnPostRoundEnqueue(Handle rankingQueue);
  * @param site which bombsite the round will use
  * @noreturn
  */
-forward void Retakes_OnSitePicked(Bombsite& site);
+forward void Retakes_OnSitePicked(Bombsite site);
 
 /**
  * Called when the team sizes are set for the round.
